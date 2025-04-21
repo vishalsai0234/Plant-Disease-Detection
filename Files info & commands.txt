@@ -1,0 +1,36 @@
+Files Contains:
+
+1. "home_page.jpeg" image file (used in streamlit)
+
+2. "main.py" python file (used for prediction of leaf images in streamlit)
+
+3. "model_test.ipynb" google collab notebook
+
+4. "model_train.ipynb" google collab notebook
+
+5. "training_hist.json" history of model training
+
+6. "Plant_Disease_Detection_Report.pdf" report for this project
+
+
+Commands:
+
+1. Open jupyter notebook/ google collab & run the "model_train.ipynb" file
+
+2. After running successfully, you get new file called "trained_model.keras" in the folder
+
+3. Then open a terminal from the folder which contains this files
+
+2. Type "streamlit run main.py" & run it in terminal to predict the type of leaf image with disease
+
+3. If you getting error then proceed with using following commands in terminal (to create new environment):
+  - conda create -n tf_env python=3.10
+  - conda activate tf_env
+  - conda install tensorflow pandas numpy matplotlib scikit-learn
+  - streamlit run main.py
+
+
+Now, terminal automatically open web browser for streaming.
+
+
+
