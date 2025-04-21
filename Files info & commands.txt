@@ -1,23 +1,25 @@
-Files Contains:
+Files Info:
 
-1. "home_page.jpeg" image file (used in streamlit)
+1. "Plant_Disease_Detection_Report.pdf" report for this project
 
-2. "main.py" python file (used for prediction of leaf images in streamlit)
+2. "home_page.jpeg" image file (used in streamlit)
 
-3. "model_test.ipynb" google collab notebook
+3. "main.py" python file (used for prediction of leaf images in streamlit)
 
-4. "model_train.ipynb" google collab notebook
+4. "model_test.ipynb" google collab notebook
 
-5. "training_hist.json" history of model training
+5. "model_train.ipynb" google collab notebook
 
-6. "Plant_Disease_Detection_Report.pdf" report for this project
+6. "requirements.txt" python libraries with version required for this project
+
+7. "training_hist.json" history of model training
 
 
 Commands:
 
 1. Open jupyter notebook/ google collab & run the "model_train.ipynb" file
 
-2. After running successfully, you get new file called "trained_model.keras" in the folder
+2. After running successfully, a new file called "trained_model.keras" is created in the folder.
 
 3. Then open a terminal from the folder which contains this files
 
